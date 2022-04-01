@@ -117,7 +117,7 @@ const solanaMetadata = {
   external_url: "https://www.youtube.com/c/hashlipsnft",
   creators: [
     {
-      address: "7fXNuer5sbZtaTEPhtJ5g5gNtuyRoKkvxdjEjEnPN4mC",
+      address: "0xf6a507cd335CA2bB58662824c3ac07548b16b64",
       share: 100,
     },
   ],
