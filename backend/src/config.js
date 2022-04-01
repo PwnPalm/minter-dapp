@@ -64,12 +64,12 @@ const extraMetadata = {
 
 // ** REQUIRED **
 const AUTH = process.env.NFTPORT_API_KEY; // Set this in the .env file to prevent exposing your API key when pushing to Github
-const LIMIT = 5; // Your API key rate limit
+const LIMIT = 4; // Your API key rate limit
 const CHAIN = 'rinkeby'; // only rinkeby or polygon
 
 // REQUIRED CONTRACT DETAILS THAT CANNOT BE UPDATED LATER!
 const CONTRACT_NAME = 'Block A Bear';
-const CONTRACT_SYMBOL = 'BAB';
+const CONTRACT_SYMBOL = 'BB';
 const METADATA_UPDATABLE = true; // set to false if you don't want to allow metadata updates after minting
 const OWNER_ADDRESS = '0xf6a507cd335CA2bB58662824c3ac07548b16b645';
 const TREASURY_ADDRESS = '0xf6a507cd335CA2bB58662824c3ac07548b16b645';
