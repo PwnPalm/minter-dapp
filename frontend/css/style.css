@@ -414,6 +414,11 @@ section {
     --mewtwo2: #acc6f8;
     --mewtwofront: url(https://www.blockabear.com/images/slider/2.png);
   }
+
+  .container {
+    max-width: 1100px;
+    margin: 0 auto;
+  }
   
   .cardz {
     width: 71.5vw;
