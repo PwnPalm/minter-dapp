@@ -415,7 +415,7 @@ section {
     --mewtwofront: url(https://www.blockabear.com/images/slider/2.png);
   }
   
-  .card {
+  .cardz {
     width: 71.5vw;
     height: 100vw;
     position: relative;
@@ -436,35 +436,35 @@ section {
     transform-origin: center;
   }
   @media screen and (min-width: 600px) {
-    .card {
+    .cardz {
       width: clamp(12.9vw, 61vh, 18vw);
       height: clamp(18vw, 85vh, 25.2vw);
     }
   }
   
-  .card:hover {
+  .cardz:hover {
     box-shadow: -20px -20px 30px -25px var(--color1), 20px 20px 30px -25px var(--color2), -7px -7px 10px -5px var(--color1), 7px 7px 10px -5px var(--color2), 0 0 13px 4px rgba(255, 255, 255, 0.3), 0 55px 35px -20px rgba(0, 0, 0, 0.5);
   }
   
-  .card.charizard {
+  .cardz.charizard {
     --color1: var(--charizard1);
     --color2: var(--charizard2);
     --front: var(--charizardfront);
   }
   
-  .card.pika {
+  .cardz.pika {
     --color1: var(--pika1);
     --color2: var(--pika2);
     --front: var(--pikafront);
   }
   
-  .card.mewtwo {
+  .cardz.mewtwo {
     --color1: var(--mewtwo1);
     --color2: var(--mewtwo2);
     --front: var(--mewtwofront);
   }
   
-  .card.eevee {
+  .cardz.eevee {
     --color1: #ec9bb6;
     --color2: #ccac6f;
     --color3: #69e4a5;
@@ -473,8 +473,8 @@ section {
     --front: var(--eeveefront);
   }
   
-  .card:before,
-  .card:after {
+  .cardz:before,
+  .cardz:after {
     content: "";
     position: absolute;
     left: 0;
@@ -487,7 +487,7 @@ section {
     transition: all 0.33s ease;
   }
   
-  .card:before {
+  .cardz:before {
     background-position: 50% 50%;
     background-size: 300% 300%;
     background-image: linear-gradient(115deg, transparent 0%, var(--color1) 25%, transparent 47%, transparent 53%, var(--color2) 75%, transparent 100%);
@@ -496,7 +496,7 @@ section {
     z-index: 1;
   }
   
-  .card:after {
+  .cardz:after {
     opacity: 1;
     background-image: url("https://assets.codepen.io/13471/sparkles.gif"), url(https://assets.codepen.io/13471/holo.png), linear-gradient(125deg, #ff008450 15%, #fca40040 30%, #ffff0030 40%, #00ff8a20 60%, #00cfff40 70%, #cc4cfa50 85%);
     background-position: 50% 50%;
@@ -509,21 +509,21 @@ section {
     opacity: 0.75;
   }
   
-  .card.active:after,
-  .card:hover:after {
+  .cardz.active:after,
+  .cardz:hover:after {
     filter: brightness(1) contrast(1);
     opacity: 1;
   }
   
-  .card.active,
-  .card:hover {
+  .cardz.active,
+  .cardz:hover {
     -webkit-animation: none;
             animation: none;
     transition: box-shadow 0.1s ease-out;
   }
   
-  .card.active:before,
-  .card:hover:before {
+  .cardz.active:before,
+  .cardz:hover:before {
     -webkit-animation: none;
             animation: none;
     background-image: linear-gradient(110deg, transparent 25%, var(--color1) 48%, var(--color2) 52%, transparent 75%);
@@ -534,26 +534,26 @@ section {
     transition: none;
   }
   
-  .card.active:before,
-  .card:hover:before,
-  .card.active:after,
-  .card:hover:after {
+  .cardz.active:before,
+  .cardz:hover:before,
+  .cardz.active:after,
+  .cardz:hover:after {
     -webkit-animation: none;
             animation: none;
     transition: none;
   }
   
-  .card.animated {
+  .cardz.animated {
     transition: none;
     -webkit-animation: holoCard 12s ease 0s 1;
             animation: holoCard 12s ease 0s 1;
   }
-  .card.animated:before {
+  .cardz.animated:before {
     transition: none;
     -webkit-animation: holoGradient 12s ease 0s 1;
             animation: holoGradient 12s ease 0s 1;
   }
-  .card.animated:after {
+  .cardz.animated:after {
     transition: none;
     -webkit-animation: holoSparkle 12s ease 0s 1;
             animation: holoSparkle 12s ease 0s 1;
@@ -700,12 +700,12 @@ section {
       transform: rotateZ(-3deg) rotateX(-12deg) rotateY(-27deg);
     }
   }
-  .card.eevee:hover {
+  .cardz.eevee:hover {
     box-shadow: 0 0 30px -5px white, 0 0 10px -2px white, 0 55px 35px -20px rgba(0, 0, 0, 0.5);
   }
   
-  .card.eevee:hover:before,
-  .card.eevee.active:before {
+  .cardz.eevee:hover:before,
+  .cardz.eevee.active:before {
     background-image: linear-gradient(115deg, transparent 20%, var(--color1) 36%, var(--color2) 43%, var(--color3) 50%, var(--color4) 57%, var(--color5) 64%, transparent 80%);
   }
   
@@ -813,15 +813,15 @@ section {
       flex-direction: row;
     }
   }
-  .cards .card:nth-child(2), .cards .card:nth-child(2):before, .cards .card:nth-child(2):after {
+  .cards .cardz:nth-child(2), .cards .cardz:nth-child(2):before, .cards .cardz:nth-child(2):after {
     -webkit-animation-delay: 0.25s;
             animation-delay: 0.25s;
   }
-  .cards .card:nth-child(3), .cards .card:nth-child(3):before, .cards .card:nth-child(3):after {
+  .cards .cardz:nth-child(3), .cards .cardz:nth-child(3):before, .cards .cardz:nth-child(3):after {
     -webkit-animation-delay: 0.5s;
             animation-delay: 0.5s;
   }
-  .cards .card:nth-child(4), .cards .card:nth-child(4):before, .cards .card:nth-child(4):after {
+  .cards .cardz:nth-child(4), .cards .cardz:nth-child(4):before, .cards .cardz:nth-child(4):after {
     -webkit-animation-delay: 0.75s;
             animation-delay: 0.75s;
   }
