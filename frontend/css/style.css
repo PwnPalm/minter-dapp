@@ -44,7 +44,12 @@ body {
 
 /* HEADER */
 
+
 header {
+  background-image:url('http://dbsnextlevel.com/wp-content/uploads/2015/09/Content-writing-Banner.png');
+  background-repeat:no-repeat;
+  background-position:0px 0px;
+  background-size:100%;
   background-color: var(--bg-color);
   box-shadow: var(--header-shadow);
 }
