@@ -397,6 +397,14 @@ section {
   display: none;
 }
   /* Holocards*/
+  *,
+  *::before,
+  *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
   :root {
     --color1: rgb(0, 231, 255);
     --color2: rgb(255, 0, 231);
@@ -415,13 +423,6 @@ section {
     --mewtwofront: url(https://www.blockabear.com/images/slider/2.png);
   }
 
-  *,
-*::before,
-*::after {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 
   .cardz {
     width: 71.5vw;
