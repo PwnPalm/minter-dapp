@@ -810,8 +810,8 @@ section {
     justify-content: center;
   }
   
-  @media screen and (min-width: 200px),
-    (min-height: 400px){
+  @media screen and (min-width: 50px),
+    (min-height: 100px){
     .cards {
       flex-direction: row;
     }
