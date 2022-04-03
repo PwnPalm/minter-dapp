@@ -418,8 +418,8 @@ section {
 
 
   .cardz {
-    width: 41.5vw;
-    height: 70vw;
+    width: 71.5vw;
+    height: 100vw;
     position: relative;
     overflow: hidden;
     margin: 10px;
@@ -810,7 +810,7 @@ section {
     justify-content: center;
   }
   
-  @media screen and (min-width: 600px) {
+  @media screen and (min-width: 200px) {
     .cards {
       flex-direction: row;
     }
