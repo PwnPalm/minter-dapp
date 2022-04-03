@@ -1,6 +1,6 @@
 (function($) {
   $.fn.tilt = function() {
-      var perspective = '200px',
+      var perspective = '500px',
           delta = 20,
           width = this.width(),
           height = this.height(),

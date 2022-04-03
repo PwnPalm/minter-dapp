@@ -793,7 +793,7 @@ section {
     position: relative;
   }
   
-  .demo,
+ 
   .cards {
     display: flex;
     flex-direction: column;
