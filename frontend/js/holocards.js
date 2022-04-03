@@ -7,7 +7,7 @@
   
 */
 var x;
-var $cards = $(".card");
+var $cards = $(".cardzz");
 var $style = $(".hover");
 
 $cards
